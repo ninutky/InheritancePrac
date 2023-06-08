@@ -4,9 +4,12 @@ namespace InheritancePrac
 {
     internal class Cat : Animal
     {
-        public void Meow()
+        public void Meow() { Console.WriteLine("냥냥 웁니다."); }
+        public void TestB()
         {
-            Console.WriteLine("냥냥 웁니다."); 
+            // Private();
+            Protected();
+            Public();
         }
     }
 }
